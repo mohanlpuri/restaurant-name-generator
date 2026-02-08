@@ -1,3 +1,5 @@
 streamlit
+langchain
+langchain-openai  # or langchain-community, depending on your setup
 langChainHelper
 importlib
