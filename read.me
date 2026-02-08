@@ -1,5 +1,38 @@
 # Restaurant Name Generator
 
-A simple Streamlit app to generate creative restaurant names using AI.
+A Streamlit app that generates restaurant names and menus based on cuisine and diet type.
 
-Deployed on: https://RestaurantApp.streamlit.app (link will appear after deploy)
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+```
+
+### 2. Create a virtual environment (recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set up environment variables
+Create a `.env` file in the root directory and add your API keys:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+
+### 5. Run the app
+```bash
+streamlit run app.py
+```
+
+## Usage
+1. Select a cuisine type from the dropdown
+2. Select a diet type
+3. Click "Generate" to create restaurant name and menu
